@@ -145,11 +145,11 @@ flowchart TD
 - Recognize that understanding evolves across context, space, and time.
 - Connect insight to relevant, real-world outcomes.
 
-## Evolving Understanding
-
-Understanding is not static. It evolves through inquiry, changing contexts, new perspectives, and experience.
-
-**HOLOFLUX** explores this continuous movement of meaning while remaining open to revision and deeper understanding.
+> **🧠 Understanding**
+>
+> Understanding is not static. It evolves through inquiry, changing contexts, new perspectives, and experience.
+>
+> **HOLOFLUX** explores this continuous movement of meaning while remaining open to revision and deeper understanding.
 
 ## Scope
 
