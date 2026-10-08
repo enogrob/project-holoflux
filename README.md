@@ -138,12 +138,5 @@ Understanding is not static. It evolves through inquiry, changing contexts, new 
 
 ## Scope
 
-This README describes the public concepts and relationships represented by the project materials. Its diagrams are explanatory models, not implementation, deployment, or product-component specifications. They intentionally omit internal technical choices and operational details.
-
-## References
-
-- [Ground Architecture cover](images/ground-architecture-blog-cover.webp)
-- [Ground Architecture infographic](infographs/infograph-ground-architecture-a4.png)
-- [HOLOFLUX overview infographic](src/holoflux/infographs/infograph-holoflux-a3-paisagem.png)
-- [AI-native systems infographic](src/holoflux/infographs/linkedin/infograph-ai-native-systems.png)
+This README describes the public concepts and relationships represented by the project materials. 
 
