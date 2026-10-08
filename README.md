@@ -2,7 +2,9 @@
 
 ![Ground Architecture: a human-centered architecture for meaning, intent, understanding, and creation.](images/ground-architecture-blog-cover.webp)
 
-**Ground Architecture** is a human-centered way to describe how knowledge, intent, understanding, and creation can work together in AI-native systems. HOLOFLUX is the movement at its center: connecting meaning with its expression, action, and continued refinement.
+**Ground Architecture** is a human-centered approach to AI-native systems, connecting intent, knowledge, and understanding through the coherent movement of meaning.
+
+At its center, **HOLOFLUX** enables meaning to evolve across context, space, and time—transforming understanding into expression, purposeful action, and continuous learning.
 
 ## Contents
 
