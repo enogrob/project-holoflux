@@ -46,10 +46,10 @@ The map shows how the four perspectives relate at a high level. The arrows descr
 ```mermaid
 flowchart TD
 	C[(📚 COSMOS<br/>Knowledge in context)]:::context
-	I([🧭 IOP<br/>Intent and purpose]):::orientation
+	I([🧭 IOP<br/>Intent and purpose]):::context
 	H([🌀 HOLOFLUX<br/>Meaning in movement]):::understanding
 	F[📄 FACTORIES<br/>Ideas into shareable forms]:::projection
-	A([▶️ Human action<br/>and real-world impact]):::observation
+	A[▶️ Human action<br/>and real-world impact]:::projection
 	L([🧠 Learning<br/>and renewed understanding]):::understanding
 
 	C -->|situates| H
@@ -62,7 +62,6 @@ flowchart TD
 	L -->|deepens| H
 
 	classDef context fill:#D9EAF7,stroke:#7AA6C2,color:#3E342C,stroke-width:2px;
-	classDef orientation fill:#DDE3F4,stroke:#8998C8,color:#3E342C,stroke-width:2px;
 	classDef understanding fill:#DCEFD6,stroke:#86A878,color:#3E342C,stroke-width:2px;
 	classDef projection fill:#ECEBE8,stroke:#9C9992,color:#3E342C,stroke-width:2px;
 	classDef observation fill:#DDF3E8,stroke:#78AA91,color:#3E342C,stroke-width:2px;
@@ -75,13 +74,13 @@ This view follows the recurring Ground Flow: **Explore → Ground → Understand
 ```mermaid
 flowchart TD
     K[(📚 COSMOS<br/>Knowledge in context)]:::context
-    I([🧭 IOP<br/>Intent and purpose]):::orientation
-    E([🔎 Explore<br/>Inquiry and observation]):::observation
-    G([🌍 Ground<br/>Context and observations]):::context
+    I([🧭 IOP<br/>Intent and purpose]):::context
+    E[🔎 Explore<br/>Inquiry and observation]:::observation
+    G[🌍 Ground<br/>Context and observations]:::context
     U([🧠 Understand<br/>Relations and perspectives]):::understanding
-    C([🎨 Create<br/>FACTORIES · Explication]):::projection
-    D([📄 Deliver<br/>Share and apply]):::projection
-    L([🌱 Learn<br/>Reflect and revise]):::observation
+    C[🎨 Create<br/>FACTORIES · Explication]:::projection
+    D[📄 Deliver<br/>Share and apply]:::projection
+    L[🧠 Learn<br/>Reflect and revise]:::understanding
     H([🌀 HOLOFLUX<br/>Meaning in movement]):::understanding
 
     K --> G
@@ -93,13 +92,12 @@ flowchart TD
     D --> L
     L -->|Renews inquiry| E
     L -->|Revises understanding| U
-    H -.->|Across the whole| G
-    H -.-> U
-    H -.-> C
-    H -.-> L
+    H -->|spans| G
+    H -->|spans| U
+    H -->|spans| C
+    H -->|spans| L
 
     classDef context fill:#D9EAF7,stroke:#7AA6C2,color:#3E342C,stroke-width:2px;
-    classDef orientation fill:#DDE3F4,stroke:#8998C8,color:#3E342C,stroke-width:2px;
     classDef understanding fill:#DCEFD6,stroke:#86A878,color:#3E342C,stroke-width:2px;
     classDef projection fill:#ECEBE8,stroke:#9C9992,color:#3E342C,stroke-width:2px;
     classDef observation fill:#DDF3E8,stroke:#78AA91,color:#3E342C,stroke-width:2px;
