@@ -70,39 +70,39 @@ flowchart TD
 
 ## Conceptual Architecture
 
-This view follows the recurring Ground Flow: **Explore → Understand → Create → Deliver → Learn**. The stages are connected and revisitable rather than a one-way pipeline.
+This view follows the recurring Ground Flow: **Explore → Ground → Understand → Create → Deliver → Learn**. *Ground* means situating inquiry within context and available observations. The stages are connected and revisitable. HOLOFLUX describes meaning in movement across the whole, not an isolated processing step.
 
 ```mermaid
-flowchart LR
-	subgraph Context["Wider context"]
-		K[(📚 COSMOS<br/>knowledge and perspectives)]:::context
-		Q([🧭 IOP<br/>intent and purpose]):::orientation
-	end
+flowchart TD
+    K[(📚 COSMOS<br/>Knowledge in context)]:::context
+    I([🧭 IOP<br/>Intent and purpose]):::orientation
+    E([🔎 Explore<br/>Inquiry and observation]):::observation
+    G([🌍 Ground<br/>Context and observations]):::context
+    U([🧠 Understand<br/>Relations and perspectives]):::understanding
+    C([🎨 Create<br/>FACTORIES · Explication]):::projection
+    D([📄 Deliver<br/>Share and apply]):::projection
+    L([🌱 Learn<br/>Reflect and revise]):::observation
+    H([🌀 HOLOFLUX<br/>Meaning in movement]):::understanding
 
-	U([🔎 Explore<br/>inquire and observe]):::observation
-	M([🧠 Understand<br/>connect meaning and context]):::understanding
-	X[🌀 HOLOFLUX<br/>meaning, relations, and insight]:::orchestration
-	C[▶️ FACTORIES · Create<br/>express understanding in useful forms]:::projection
-	D([📄 Deliver<br/>share and apply]):::projection
-	R([👁 Learn<br/>review experience and revise]):::observation
+    K --> G
+    I --> E
+    E --> G
+    G --> U
+    U --> C
+    C --> D
+    D --> L
+    L -->|Renews inquiry| E
+    L -->|Revises understanding| U
+    H -.->|Across the whole| G
+    H -.-> U
+    H -.-> C
+    H -.-> L
 
-	K --> U
-	Q --> U
-	U --> M
-	M --> X
-	X --> C
-	C --> D
-	D --> R
-	R -->|new questions| Q
-	R -->|updated perspectives| K
-	R -->|refine understanding| M
-
-	classDef context fill:#D9EAF7,stroke:#7AA6C2,color:#3E342C,stroke-width:2px;
-	classDef orientation fill:#DDE3F4,stroke:#8998C8,color:#3E342C,stroke-width:2px;
-	classDef observation fill:#DDF3E8,stroke:#78AA91,color:#3E342C,stroke-width:2px;
-	classDef understanding fill:#DCEFD6,stroke:#86A878,color:#3E342C,stroke-width:2px;
-	classDef orchestration fill:#FFF1BF,stroke:#C8A84E,color:#3E342C,stroke-width:2px;
-	classDef projection fill:#ECEBE8,stroke:#9C9992,color:#3E342C,stroke-width:2px;
+    classDef context fill:#D9EAF7,stroke:#7AA6C2,color:#3E342C,stroke-width:2px;
+    classDef orientation fill:#DDE3F4,stroke:#8998C8,color:#3E342C,stroke-width:2px;
+    classDef understanding fill:#DCEFD6,stroke:#86A878,color:#3E342C,stroke-width:2px;
+    classDef projection fill:#ECEBE8,stroke:#9C9992,color:#3E342C,stroke-width:2px;
+    classDef observation fill:#DDF3E8,stroke:#78AA91,color:#3E342C,stroke-width:2px;
 ```
 
 ## Key Concepts
@@ -110,6 +110,10 @@ flowchart LR
 - **Intent:** The purpose, questions, goals, and context that give work direction.
 - **Knowledge in context:** Ideas and perspectives considered in relation to one another rather than in isolation.
 - **Meaning:** Concepts, relationships, and perspectives that help people make sense of a situation.
+- **Inquiry:** Exploring questions and observations while remaining open to what is not yet understood.
+- **Coherence:** Considering whether interpretations fit their context while recognizing uncertainty.
+- **Space and time:** Understanding is situated and may evolve across contexts and moments.
+- **Perspectives:** Each expression reveals aspects of a larger whole without exhausting it.
 - **Explication:** Making understanding visible and communicable through forms such as explanations, diagrams, or other media.
 - **Learning and revision:** Using reflection and experience to refine understanding and reopen inquiry.
 - **Human-centered action:** Applying understanding in ways that remain connected to people's needs and judgment.
@@ -121,8 +125,14 @@ flowchart LR
 - Use clear expression to make understanding visible.
 - Treat any single representation as partial; different forms can reveal different aspects.
 - Keep intent and context traceable through the work.
-- Make room for reflection, revision, and continuous learning.
+- Make room for reflection, revision, uncertainty, and continuous learning.
+- Treat coherence as an ongoing inquiry, not a guarantee of correctness.
+- Recognize that understanding evolves across context, space, and time.
 - Connect insight to relevant, real-world outcomes.
+
+## An Exploration: Git for Understanding
+
+Git helps us follow how artifacts change. HOLOFLUX explores a related question: **How might we follow how understanding changes—and why?** This is a conceptual direction, not a claim of an implemented version-control capability for meaning.
 
 ## Scope
 
