@@ -45,12 +45,18 @@ The map shows how the four perspectives relate at a high level. The arrows descr
 
 ```mermaid
 flowchart TD
-	C[(📚 COSMOS<br/>Knowledge in context)]:::context
-	I([🧭 IOP<br/>Intent and purpose]):::context
-	H([🌀 HOLOFLUX<br/>Meaning in movement]):::understanding
-	F[📄 FACTORIES<br/>Ideas into shareable forms]:::projection
-	A[▶️ Human action<br/>and real-world impact]:::projection
-	L([🧠 Learning<br/>and renewed understanding]):::understanding
+    %% COSMOS: Knowledge in context.
+    C[(📚 COSMOS)]:::context
+    %% IOP: Intent and purpose.
+    I([🧭 IOP]):::context
+    %% HOLOFLUX: Meaning in movement.
+    H([🌀 HOLOFLUX]):::understanding
+    %% FACTORIES: Ideas into shareable forms.
+    F[📄 FACTORIES]:::projection
+    %% Human action: Real-world impact.
+    A[▶️ Human action]:::projection
+    %% Learning: Renewed understanding.
+    L([🧠 Learning]):::understanding
 
 	C -->|situates| H
 	I -->|orients| H
@@ -73,15 +79,24 @@ This view follows the recurring Ground Flow: **Explore → Ground → Understand
 
 ```mermaid
 flowchart TD
-    K[(📚 COSMOS<br/>Knowledge in context)]:::context
-    I([🧭 IOP<br/>Intent and purpose]):::context
-    E[🔎 Explore<br/>Inquiry and observation]:::observation
-    G[🌍 Ground<br/>Context and observations]:::context
-    U([🧠 Understand<br/>Relations and perspectives]):::understanding
-    C[🎨 Create<br/>FACTORIES · Explication]:::projection
-    D[📄 Deliver<br/>Share and apply]:::projection
-    L[🧠 Learn<br/>Reflect and revise]:::understanding
-    H([🌀 HOLOFLUX<br/>Meaning in movement]):::understanding
+    %% COSMOS: Knowledge in context.
+    K[(📚 COSMOS)]:::context
+    %% IOP: Intent and purpose.
+    I([🧭 IOP]):::context
+    %% Explore: Inquiry and observation.
+    E[🔎 Explore]:::observation
+    %% Ground: Context and observations.
+    G[🌍 Ground]:::context
+    %% Understand: Relations and perspectives.
+    U([🧠 Understand]):::understanding
+    %% Create: FACTORIES explication.
+    C[🎨 Create]:::projection
+    %% Deliver: Share and apply.
+    D[📄 Deliver]:::projection
+    %% Learn: Reflect and revise.
+    L[🧠 Learn]:::understanding
+    %% HOLOFLUX: Meaning in movement across the whole flow.
+    H([🌀 HOLOFLUX]):::understanding
 
     K --> G
     I --> E
