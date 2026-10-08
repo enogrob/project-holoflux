@@ -130,9 +130,11 @@ flowchart TD
 - Recognize that understanding evolves across context, space, and time.
 - Connect insight to relevant, real-world outcomes.
 
-## An Exploration: Git for Understanding
+## Evolving Understanding
 
-Git helps us follow how artifacts change. HOLOFLUX explores a related question: **How might we follow how understanding changes—and why?** This is a conceptual direction, not a claim of an implemented version-control capability for meaning.
+Understanding is not static. It evolves through inquiry, changing contexts, new perspectives, and experience.
+
+**HOLOFLUX** explores this continuous movement of meaning while remaining open to revision and deeper understanding.
 
 ## Scope
 
