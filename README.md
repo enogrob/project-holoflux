@@ -50,7 +50,7 @@ flowchart TD
     %% IOP: Intent and purpose.
     I([🧭 IOP]):::context
     %% HOLOFLUX: Meaning in movement.
-    H([🌀 HOLOFLUX]):::understanding
+    H([🌀 HOLOFLUX]):::holoflux
     %% FACTORIES: Ideas into shareable forms.
     F[📄 FACTORIES]:::projection
     %% Human action: Real-world impact.
@@ -69,6 +69,7 @@ flowchart TD
 
 	classDef context fill:#D9EAF7,stroke:#7AA6C2,color:#3E342C,stroke-width:2px;
 	classDef understanding fill:#DCEFD6,stroke:#86A878,color:#3E342C,stroke-width:2px;
+    classDef holoflux fill:#F2B8B5,stroke:#C94C4C,color:#3E342C,stroke-width:2px;
 	classDef projection fill:#ECEBE8,stroke:#9C9992,color:#3E342C,stroke-width:2px;
 	classDef observation fill:#DDF3E8,stroke:#78AA91,color:#3E342C,stroke-width:2px;
 ```
@@ -96,7 +97,7 @@ flowchart TD
     %% Learn: Reflect and revise.
     L[🧠 Learn]:::understanding
     %% HOLOFLUX: Meaning in movement across the whole flow.
-    H([🌀 HOLOFLUX]):::understanding
+    H([🌀 HOLOFLUX]):::holoflux
 
     K --> G
     I --> E
@@ -114,6 +115,7 @@ flowchart TD
 
     classDef context fill:#D9EAF7,stroke:#7AA6C2,color:#3E342C,stroke-width:2px;
     classDef understanding fill:#DCEFD6,stroke:#86A878,color:#3E342C,stroke-width:2px;
+    classDef holoflux fill:#F2B8B5,stroke:#C94C4C,color:#3E342C,stroke-width:2px;
     classDef projection fill:#ECEBE8,stroke:#9C9992,color:#3E342C,stroke-width:2px;
     classDef observation fill:#DDF3E8,stroke:#78AA91,color:#3E342C,stroke-width:2px;
 ```
