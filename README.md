@@ -15,7 +15,6 @@ At its center, **HOLOFLUX** enables meaning to evolve across context, space, and
 - [Key Concepts](#key-concepts)
 - [Guiding Principles](#guiding-principles)
 - [Scope](#scope)
-- [References](#references)
 
 ## Summary
 
@@ -73,6 +72,8 @@ flowchart TD
 	classDef projection fill:#ECEBE8,stroke:#9C9992,color:#3E342C,stroke-width:2px;
 	classDef observation fill:#DDF3E8,stroke:#78AA91,color:#3E342C,stroke-width:2px;
 ```
+
+In words, COSMOS situates knowledge and IOP orients intent; HOLOFLUX connects them to meaning and understanding; FACTORIES turns understanding into shareable forms; and human action creates experience that can renew context, purpose, and understanding.
 
 ## Conceptual Architecture
 
