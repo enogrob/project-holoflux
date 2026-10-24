@@ -18,10 +18,11 @@ At its center, **HOLOFLUX** enables meaning to evolve across context, space, and
 
 ## Summary
 
-Ground Architecture brings together four complementary perspectives:
+Ground Architecture brings together five complementary perspectives:
 
 - **COSMOS** gives knowledge a navigable context across domains.
-- **IOP** starts with human intent: purpose, questions, and the situation to address.
+- **IOP (Intent-Oriented Programming)** is a proposed paradigm that orients inquiry and realization around intention and understanding.
+- **ZOAT** is the expressive, LLM-native language implementing IOP through meaningful declarations.
 - **HOLOFLUX** connects intent and context to meaning, understanding, and expression.
 - **FACTORIES** help turn structured meaning into clear, shareable forms.
 
@@ -29,51 +30,54 @@ Together, they describe a human-centered cycle: explore a wider context, develop
 
 ## Ground Architecture
 
-The four names describe roles in a shared conceptual landscape, not separate product components:
+These five names describe complementary public concepts in a shared landscape, not a disclosed technical architecture:
 
 | Perspective | Public meaning | Contribution |
 | --- | --- | --- |
 | **COSMOS** | Knowledge in context | Connects ideas, contexts, and perspectives into a wider view. |
-| **IOP** | People in action | Organizes work around purpose, questions, and meaningful outcomes. |
+| **IOP** | Intent-oriented paradigm | Connects intention, understanding and realization, remaining open to revision. |
+| **ZOAT** | Language implementing IOP | Expresses intentions and understanding through readable, semantically interpreted declarations. |
 | **HOLOFLUX** | Meaning in movement | Bridges implicit meaning and explicit expression through inquiry and reflection. |
 | **FACTORIES** | Ideas into impact | Explicates understanding into communicable forms for people and audiences. |
 
 ## Concepts Map
 
-The map shows how the four perspectives relate at a high level. The arrows describe conceptual relationships, not technical integrations.
+The map shows how the five perspectives relate at a high level. IOP is the paradigm; ZOAT is its language. Arrows express conceptual relationships, **not** internal integrations or a runtime topology.
 
 ```mermaid
 flowchart TD
-    %% COSMOS: Knowledge in context.
-    C[(📚 COSMOS)]:::context
-    %% IOP: Intent and purpose.
-    I([🧭 IOP]):::context
-    %% HOLOFLUX: Meaning in movement.
-    H([🌀 HOLOFLUX]):::holoflux
-    %% FACTORIES: Ideas into shareable forms.
-    F[📄 FACTORIES]:::projection
-    %% Human action: Real-world impact.
-    A[▶️ Human action]:::projection
-    %% Learning: Renewed understanding.
-    L([🧠 Learning]):::understanding
+    subgraph Orientation["Purpose and context"]
+      C[(📚 COSMOS)]:::context
+      I([🧭 IOP]):::context
+      Z([📄 ZOAT]):::projection
+    end
+    subgraph Meaning["Meaning and understanding"]
+      H([🌀 HOLOFLUX]):::holoflux
+      U([🧠 Understanding]):::understanding
+    end
+    subgraph Realization["Expression, action and experience"]
+      F[📄 FACTORIES]:::projection
+      A[▶️ Human action]:::projection
+      L([👁 Experience and learning]):::observation
+    end
+    I -->|expressed through| Z
+    C -->|situates inquiry| H
+    Z -->|expresses intent and understanding| H
+    H -->|supports| U
+    U -->|informs creation| F
+    F -->|supports| A
+    A -->|has observable consequences| L
+    L -->|may deepen| U
+    L -->|may reframe| I
 
-	C -->|situates| H
-	I -->|orients| H
-	H -->|clarifies and connects| F
-	F -->|supports| A
-	A -->|offers experience for| L
-	L -->|revises context| C
-	L -->|reframes purpose| I
-	L -->|deepens| H
-
-	classDef context fill:#D9EAF7,stroke:#7AA6C2,color:#3E342C,stroke-width:2px;
-	classDef understanding fill:#DCEFD6,stroke:#86A878,color:#3E342C,stroke-width:2px;
+    classDef context fill:#D9EAF7,stroke:#7AA6C2,color:#3E342C,stroke-width:2px;
+    classDef understanding fill:#DCEFD6,stroke:#86A878,color:#3E342C,stroke-width:2px;
     classDef holoflux fill:#F2B8B5,stroke:#C94C4C,color:#3E342C,stroke-width:2px;
-	classDef projection fill:#ECEBE8,stroke:#9C9992,color:#3E342C,stroke-width:2px;
-	classDef observation fill:#DDF3E8,stroke:#78AA91,color:#3E342C,stroke-width:2px;
+    classDef projection fill:#ECEBE8,stroke:#9C9992,color:#3E342C,stroke-width:2px;
+    classDef observation fill:#DDF3E8,stroke:#78AA91,color:#3E342C,stroke-width:2px;
 ```
 
-In words, COSMOS situates knowledge and IOP orients intent; HOLOFLUX connects them to meaning and understanding; FACTORIES turns understanding into shareable forms; and human action creates experience that can renew context, purpose, and understanding.
+In words, COSMOS situates knowledge; IOP articulates the intent-oriented paradigm and ZOAT expresses it as a language; HOLOFLUX describes meaning in movement; FACTORIES helps turn understanding into shareable forms. Action and observed experience may renew understanding and intention.
 
 ## Conceptual Architecture
 
@@ -81,38 +85,38 @@ This view follows the recurring Ground Flow: **Explore → Ground → Understand
 
 ```mermaid
 flowchart TD
-    %% COSMOS: Knowledge in context.
-    K[(📚 COSMOS)]:::context
-    %% IOP: Intent and purpose.
-    I([🧭 IOP]):::context
-    %% Explore: Inquiry and observation.
-    E[🔎 Explore]:::observation
-    %% Ground: Context and observations.
-    G[🌍 Ground]:::context
-    %% Understand: Relations and perspectives.
-    U([🧠 Understand]):::understanding
-    %% Create: FACTORIES explication.
-    C[🎨 Create]:::projection
-    %% Deliver: Share and apply.
-    D[📄 Deliver]:::projection
-    %% Learn: Reflect and revise.
-    L[🧠 Learn]:::understanding
-    %% HOLOFLUX: Meaning in movement across the whole flow.
-    H([🌀 HOLOFLUX]):::holoflux
-
+    subgraph Orientation["Intent and language"]
+      I([🧭 IOP]):::context
+      Z([📄 ZOAT]):::projection
+    end
+    subgraph Inquiry["Context and understanding"]
+      K[(📚 COSMOS)]:::context
+      E[🔎 Explore]:::observation
+      G[🌍 Ground]:::context
+      U([🧠 Understand]):::understanding
+    end
+    subgraph Expression["Realization and feedback"]
+      C[🎨 Create]:::projection
+      F[📄 FACTORIES]:::projection
+      D[📄 Deliver]:::projection
+      L([👁 Learn from observed results]):::observation
+    end
+    H([🌀 HOLOFLUX: meaning in movement]):::holoflux
+    I -->|is expressed in| Z
+    Z -->|orients inquiry| E
     K --> G
-    I --> E
     E --> G
     G --> U
     U --> C
-    C --> D
+    C -->|can be expressed through| F
+    F -->|produces shareable forms| D
     D --> L
-    L -->|Renews inquiry| E
-    L -->|Revises understanding| U
-    H -->|spans| G
-    H -->|spans| U
-    H -->|spans| C
-    H -->|spans| L
+    L -->|may reopen| E
+    L -->|may revise| U
+    H -->|connects| G
+    H -->|connects| U
+    H -->|connects| C
+    H -->|connects| L
 
     classDef context fill:#D9EAF7,stroke:#7AA6C2,color:#3E342C,stroke-width:2px;
     classDef understanding fill:#DCEFD6,stroke:#86A878,color:#3E342C,stroke-width:2px;
@@ -122,6 +126,8 @@ flowchart TD
 ```
 
 ## Key Concepts
+
+- **IOP and ZOAT:** IOP is the intent-oriented programming paradigm; ZOAT is its expressive language interpreted semantically by LLMs. This public description does not specify execution internals.
 
 - **Intent:** The purpose, questions, goals, and context that give work direction.
 - **Knowledge in context:** Ideas and perspectives considered in relation to one another rather than in isolation.
@@ -154,5 +160,7 @@ flowchart TD
 
 ## Scope
 
-This README describes the public concepts and relationships represented by the project materials. 
+This README describes only public concepts and relationships. Diagrams are explanatory maps, not implementation blueprints. Runtime design, orchestration, private interfaces, algorithms, internal configuration, and unreleased capabilities are outside its scope.
+
+Further public background: [ZOAT](https://github.com/ezoatworks/zoat) and [project-skills](https://github.com/enogrob/project-skills). 
 
