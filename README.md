@@ -97,6 +97,7 @@ flowchart TD
     end
     subgraph Expression["Realization and feedback"]
       C[🎨 Create]:::projection
+      F[📄 FACTORIES]:::projection
       D[📄 Deliver]:::projection
       L([👁 Learn from observed results]):::observation
     end
@@ -107,7 +108,8 @@ flowchart TD
     E --> G
     G --> U
     U --> C
-    C -->|may use FACTORIES| D
+    C -->|can be expressed through| F
+    F -->|produces shareable forms| D
     D --> L
     L -->|may reopen| E
     L -->|may revise| U
