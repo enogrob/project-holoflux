@@ -45,20 +45,21 @@ These five names describe complementary public concepts in a shared landscape, n
 The map shows how the five perspectives relate at a high level. IOP is the paradigm; ZOAT is its language. Arrows express conceptual relationships, **not** internal integrations or a runtime topology.
 
 ```mermaid
+%%{init: {"theme": "base", "themeVariables": {"fontSize": "13px", "clusterBkg": "#F5F5F2", "edgeLabelBackground": "#FFFFFF"}, "flowchart": {"wrappingWidth": 200, "minNodeWidth": 0, "padding": 8}}}%%
 flowchart TD
     subgraph Orientation["Purpose and context"]
-      C[(📚 COSMOS)]:::context
-      I([🧭 IOP]):::context
-      Z([📄 ZOAT]):::projection
+      C([📚 COSMOS]):::context
+      I([🎯 IOP]):::context
+      Z([🟢 ZOAT]):::projection
     end
     subgraph Meaning["Meaning and understanding"]
-      H([🌀 HOLOFLUX]):::holoflux
+      H([🔴 HOLOFLUX]):::holoflux
       U([🧠 Understanding]):::understanding
     end
     subgraph Realization["Expression, action and experience"]
-      F[📄 FACTORIES]:::projection
-      A[▶️ Human action]:::projection
-      L([👁 Experience and learning]):::observation
+      F([⚙️ FACTORIES]):::projection
+      A([▶️ Human action]):::projection
+      L([👁️ Experience and learning]):::observation
     end
     I -->|expressed through| Z
     C -->|situates inquiry| H
@@ -67,8 +68,8 @@ flowchart TD
     U -->|informs creation| F
     F -->|supports| A
     A -->|has observable consequences| L
-    L -->|may deepen| U
-    L -->|may reframe| I
+    L -. may deepen .-> U
+    L -. may reframe .-> I
 
     classDef context fill:#D9EAF7,stroke:#7AA6C2,color:#3E342C,stroke-width:2px;
     classDef understanding fill:#DCEFD6,stroke:#86A878,color:#3E342C,stroke-width:2px;
@@ -84,24 +85,25 @@ In words, COSMOS situates knowledge; IOP articulates the intent-oriented paradig
 This view follows the recurring Ground Flow: **Explore → Ground → Understand → Create → Deliver → Learn**. *Ground* means situating inquiry within context and available observations. The stages are connected and revisitable. HOLOFLUX describes meaning in movement across the whole, not an isolated processing step.
 
 ```mermaid
+%%{init: {"theme": "base", "themeVariables": {"fontSize": "13px", "clusterBkg": "#F5F5F2", "edgeLabelBackground": "#FFFFFF"}, "flowchart": {"wrappingWidth": 200, "minNodeWidth": 0, "padding": 8}}}%%
 flowchart TD
     subgraph Orientation["Intent and language"]
-      I([🧭 IOP]):::context
-      Z([📄 ZOAT]):::projection
+      I([🎯 IOP]):::context
+      Z([🟢 ZOAT]):::projection
     end
     subgraph Inquiry["Context and understanding"]
-      K[(📚 COSMOS)]:::context
-      E[🔎 Explore]:::observation
-      G[🌍 Ground]:::context
+      K([📚 COSMOS]):::context
+      E([🔎 Explore]):::observation
+      G([🌐 Ground]):::context
       U([🧠 Understand]):::understanding
     end
     subgraph Expression["Realization and feedback"]
-      C[🎨 Create]:::projection
-      F[📄 FACTORIES]:::projection
-      D[📄 Deliver]:::projection
-      L([👁 Learn from observed results]):::observation
+      C([🎨 Create]):::projection
+      F([⚙️ FACTORIES]):::projection
+      D([📦 Deliver]):::projection
+      L([👁️ Learn from observed results]):::observation
     end
-    H([🌀 HOLOFLUX: meaning in movement]):::holoflux
+    H([🔴 HOLOFLUX]):::holoflux
     I -->|is expressed in| Z
     Z -->|orients inquiry| E
     K --> G
@@ -111,8 +113,8 @@ flowchart TD
     C -->|can be expressed through| F
     F -->|produces shareable forms| D
     D --> L
-    L -->|may reopen| E
-    L -->|may revise| U
+    L -. may reopen .-> E
+    L -. may revise .-> U
     H -->|connects| G
     H -->|connects| U
     H -->|connects| C
@@ -163,4 +165,3 @@ flowchart TD
 This README describes only public concepts and relationships. Diagrams are explanatory maps, not implementation blueprints. Runtime design, orchestration, private interfaces, algorithms, internal configuration, and unreleased capabilities are outside its scope.
 
 Further public background: [ZOAT](https://github.com/ezoatworks/zoat) and [project-skills](https://github.com/enogrob/project-skills). 
-
