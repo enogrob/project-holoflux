@@ -167,4 +167,11 @@ flowchart TD
 
 This README describes only public concepts and relationships. Diagrams are explanatory maps, not implementation blueprints. Runtime design, orchestration, private interfaces, algorithms, internal configuration, and unreleased capabilities are outside its scope.
 
+## Intellectual References
+
+- **David Bohm, [*Wholeness and the Implicate Order* (1980)](https://www.routledge.com/Wholeness-and-the-Implicate-Order/Bohm/p/book/9780415289795):** A philosophical inspiration for wholeness, interconnectedness, and the relationship between implicate and explicate order.
+- **Mathematical archetypes of nature:** Recurring forms, symmetry, proportion, and relational patterns in natural systems offer a complementary conceptual inspiration for understanding patterns within a larger whole.
+
+These references express intellectual influences, not scientific validation of the project or disclosure of its internal methods, algorithms, or implementation.
+
 Further public background: [ZOAT](https://github.com/ezoatworks/zoat) and [project-skills](https://github.com/enogrob/project-skills). Cosmic Cycles supplies optional guidance for semantic movements; it does not prescribe this diagram's sequence. 
