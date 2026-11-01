@@ -176,4 +176,4 @@ This README describes only public concepts and relationships. Diagrams are expla
 
 **Conceptual relationship:** These are complementary intellectual inspirations for HOLOFLUX's relational perspective and ZOAT's exploration of coherent semantic expression—not evidence of technical implementation or scientific validation.
 
-Further public background: [ZOAT](https://github.com/ezoatworks/zoat) and [project-skills](https://github.com/enogrob/project-skills). Cosmic Cycles supplies optional guidance for semantic movements; it does not prescribe this diagram's sequence. 
+ 
