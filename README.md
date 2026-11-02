@@ -15,6 +15,7 @@ At its center, **HOLOFLUX** enables meaning to evolve across context, space, and
 - [Key Concepts](#key-concepts)
 - [Guiding Principles](#guiding-principles)
 - [Scope](#scope)
+- [References](#references)
 
 ## Summary
 
@@ -175,5 +176,24 @@ This README describes only public concepts and relationships. Diagrams are expla
 | Wholeness, interconnectedness, and the conceptual relationship between implicate and explicate order. | Mathematical archetypes, natural patterns, symmetry, geometry, and proportion. |
 
 **Conceptual relationship:** These are complementary intellectual inspirations for HOLOFLUX's relational perspective and ZOAT's exploration of coherent semantic expression—not evidence of technical implementation or scientific validation.
+Further public background: [ZOAT](https://github.com/ezoatworks/zoat) and [project-skills](https://github.com/enogrob/project-skills).
 
- 
+## References
+
+These books offer conceptual perspectives for the themes discussed here; they do not establish the project's implementation or capabilities.
+
+- <a href="https://www.routledge.com/Wholeness-and-the-Implicate-Order/Bohm/p/book/9780415289795"><img src="images/wholeness-and-the-implicate-order.jpg" alt="Cover of Wholeness and the Implicate Order by David Bohm" width="128" height="171" align="left" hspace="16"></a>
+
+**David Bohm** · [*Wholeness and the Implicate Order* (1980)](https://www.routledge.com/Wholeness-and-the-Implicate-Order/Bohm/p/book/9780415289795)
+
+Wholeness, interconnectedness, and the relationship between implicate and explicate order offer a conceptual lens for HOLOFLUX's movement between meaning, understanding, and expression.
+
+<br clear="all">
+
+- <a href="https://books.google.com.br/books/about/A_Beginner_s_Guide_to_Constructing_the_U.html?id=3JwMAwAAQBAJ"><img src="images/schneider-book-cover.jpg" alt="Cover of A Beginner’s Guide to Constructing the Universe by Michael S. Schneider" width="128" height="165" align="left" hspace="16"></a>
+
+**Michael S. Schneider** · [*A Beginner's Guide to Constructing the Universe* (1994)](https://books.google.com.br/books/about/A_Beginner_s_Guide_to_Constructing_the_U.html?id=3JwMAwAAQBAJ)
+
+Mathematical archetypes, natural patterns, symmetry, geometry, and proportion offer a perspective on recognizing relationships and expressing them through meaningful forms.
+
+<br clear="all">
